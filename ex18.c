@@ -13,10 +13,10 @@ int main () {
         printf("sei nato nell'anno in cui l'uomo è andato sulla Luna!! \n");
     } else { 
         if(x > 1969) {
-            printf("sei nato %d anni prima dell'anno in cui l'uomo è stato sulla Luna \n", sottrazione2);
+            printf("sei nato %d anni dopo l'anno in cui l'uomo è stato sulla Luna \n", sottrazione2);
         } 
         if(x < 1969) {
-            printf("sei %d anni dopo l'anno in cui l'uomo è stato sulla Luna \n", sottrazione1);
+            printf("sei nato %d anni prima dell'anno in cui l'uomo è stato sulla Luna \n", sottrazione1);
         }
     }
 
