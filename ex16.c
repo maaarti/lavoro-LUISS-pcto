@@ -4,6 +4,7 @@ int main () {
     int c;
     int d;
     int e;
+    
     printf("inserisci un numero: \n");
     scanf("%d", &c);
     printf("inserisci un'altro numero: \n");
