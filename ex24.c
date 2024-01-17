@@ -5,17 +5,22 @@ void ciao() {
 int main() {
     float n;
     float i = 0;
-    float s;
+    float s = 0;
+    float m;
 
-    while (i > 0) {
+    while (n >= 0) {
         printf ("inserisci un numero: ");
-        scanf ("%d", &n);
-        n + i / i++;
-        printf("%d \n", i);
+        scanf ("%f", &n);
+        if (n >= 0) {
+            s = s + n;
+            i = i + 1;
+            m = s / i;
+            printf("la media dei numeri inseriti è %f \n", m);
+        } else {
+            printf("numero negativo, error \n");
+        }
+        
     } 
-    if (i < 0) {
-        printf("numero negativo, error \n")
-    }
-
+    
     return 0;
 }
