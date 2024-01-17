@@ -21,8 +21,7 @@ int main () {
         } else {
             printf("i numeri scelti non possono essere le lunghezze dei lati di un triangolo \n");
         } 
-    } 
-    else {
+    } else {
         printf("i numeri scelti non possono essere le lunghezze dei lati di un triangolo \n");
     }
     
