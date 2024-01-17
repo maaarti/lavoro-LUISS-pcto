@@ -2,8 +2,10 @@
 
 int main () {
     int x;
+
     int sottrazione1;
     int sottrazione2;
+    
     printf("qual'è il tuo anno di nascita? \n");
     scanf("%d", &x);
     sottrazione1 = 1969 - x;

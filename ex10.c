@@ -3,6 +3,7 @@
 int main () {
     float c;
     float d;
+
     printf("inserisci a quanti anni si può prendere la patente nello stato in cui vivi: \n");
     scanf("%f", &c);
     printf("quanti anni hai? \n");
@@ -13,5 +14,5 @@ int main () {
     else if(d<=c){
         printf("non puoi prendere la patente prova tra un po' di tempo! \n");
     }
-return (0);
+    return (0);
 }

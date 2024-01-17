@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    
     char uno;
     char due;
     char tre;

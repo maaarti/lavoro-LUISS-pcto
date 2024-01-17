@@ -4,6 +4,7 @@ int main () {
     float a = 100;
     float b = 101;
     float c = 2; 
+    
     int moltiplicazione = a * b;
     float divisione = moltiplicazione / c; 
     int somma = divisione;

@@ -3,6 +3,7 @@
 int main () {
     float m;
     float n;
+
     printf("inserisci un numero: \n");
     scanf("%f", &m);
     printf("inserisci un altro numero: \n");
@@ -16,5 +17,5 @@ int main () {
     if(m==n){
         printf("i numeri sono uguali:| \n");
     }
-return (0);
+    return (0);
 }

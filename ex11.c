@@ -3,6 +3,7 @@
 int main () {
     int f;
     int g;
+    
     printf("inserisci un numero: \n");
     scanf("%d", &f);
     printf("inserisci un'altro numero: \n");
@@ -13,5 +14,5 @@ int main () {
     else if(f % g != 0){
         printf("il primo numero non è multiplo del secondo:o \n");
     }
-return (0);
+    return (0);
 }

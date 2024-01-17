@@ -12,6 +12,7 @@ int main () {
     char oa = 'e';
     char uu = 'l';
     char oo = 'e';
+    
     printf("%c \n", mare);
     printf("%c \n", montagna);
     printf("%c \n", dajeroma);

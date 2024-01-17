@@ -10,8 +10,8 @@ int main () {
     } else if ((a == b && b != c)||(a == c && b != c)||(c == b && b != a)) {
         printf("il triangolo è isoscele \n");
     } else {
-            printf("il triangolo è scaleno \n");
-        }
+        printf("il triangolo è scaleno \n");
+    }
 
     return (0);
 }

@@ -2,9 +2,9 @@
 
 int main () {
     float c;
+
     printf("inserisci una temperatura in Celsius: \n");
     scanf("%f", &c);
-
     if ( c <= -273.15 ){
         printf("errore!! \n");
     }
@@ -13,5 +13,5 @@ int main () {
         printf("temperatura in Kelvin: %f \n", c + 273.15);
     }
     
-return (0);
+    return (0);
 }
