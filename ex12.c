@@ -7,8 +7,7 @@ int main () {
     scanf("%f", &c);
     if ( c <= -273.15 ){
         printf("errore!! \n");
-    }
-    else{
+    } else {
         printf("temperatura in Fahrenheit: %f \n", (1.8 * c) + 32);
         printf("temperatura in Kelvin: %f \n", c + 273.15);
     }
